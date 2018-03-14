@@ -1,0 +1,9 @@
+{
+  "name": "orkestra-laravel-echo-server",
+  "script": "laravel-echo-server",
+  "args": "start",
+  "watch": ["server", "client"],
+  "watch_options": {
+  	"persistent"    : true
+  }
+}
