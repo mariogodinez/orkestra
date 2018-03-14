@@ -43,7 +43,6 @@ function scrollTop (to,from,next){
   next()
 }
 
-
 let routes = [
 	{path: '/login', component: Login, beforeEnter:scrollTop},
   {path: '/indicadores-vendedor', component: SellerIndicators, beforeEnter:scrollTop},
